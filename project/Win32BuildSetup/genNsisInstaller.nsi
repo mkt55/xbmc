@@ -199,7 +199,7 @@ Section "${APP_NAME}" SecAPP
   SetOutPath "$INSTDIR"
   
   CreateDirectory "$SMPROGRAMS\$StartMenuFolder"
-  CreateShortCut "$SMPROGRAMS\$StartMenuFolder\${APP_NAME}.lnk" "$INSTDIR\${APP_NAME}.exe" \
+  CreateShortCut "$SMPROGRAMS\$StartMenuFolder\${APP_NAME} (64-Bit).lnk" "$INSTDIR\${APP_NAME}.exe" \
     "" "$INSTDIR\${APP_NAME}.exe" 0 SW_SHOWNORMAL \
     "" "Start ${APP_NAME}."
   CreateShortCut "$SMPROGRAMS\$StartMenuFolder\Uninstall ${APP_NAME}.lnk" "$INSTDIR\Uninstall.exe" \

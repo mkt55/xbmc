@@ -28,7 +28,7 @@ POPD
 
 set msysver=20160205
 set msys2=msys64
-set build32=yes
+set build32=no
 set build64=no
 set instdir=%WORKSPACE%\project\BuildDependencies
 set msyspackages=autoconf automake libtool m4 make gettext patch pkg-config wget p7zip coreutils
